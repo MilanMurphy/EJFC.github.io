@@ -1,6 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-image: url("images/papertexture.jpg");
+}
+
 header {
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    background-image: url("images/Winter_E-MTB_Rotwild_CB-9257.jpg");
+    
+    border-color: black;
+    border-style: solid ;
+    border-width: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    margin-left: 2%;
+    align-content: center;
+    width: 96%;
+    height: auto;
+}
+
+.progBar {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2%;
+    margin-top: 0%;
+}
+
+.progBar div {
+    font-style: bold;
 }
